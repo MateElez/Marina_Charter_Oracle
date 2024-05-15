@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Marina-Charter_Mate_Elez" id="1EB76363-7589-999E-6069-51C300B2B748" version="3.5">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 14:26:12 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1EB76363-7589-999E-6069-51C300B2B748</designId>
+</OSDM_Design>
