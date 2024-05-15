@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E32A2A2B-C8AB-3BF3-8E27-1DBC9076E6BA" name="Marine">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>F30DA938-290B-8065-81A0-CB4F8BA8FD4A</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Marina" id="1F29BE1D-E376-789A-A813-122C57745DF2">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>2E8F3D52-8D58-A674-AFE9-4C6F03BD46A5</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>MARINA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>MARINA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="C4F48331-B9AD-5DC4-341B-44081084845A">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>4E2FCE12-0FC5-5969-94B7-85C95CD0CCB6</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_Vezova" id="F5790B92-2DDF-0E1E-BA53-68BD93BB39FD">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>02973B38-AEAC-AF18-061C-594EFFD052B9</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mjesta_ID_Mjesto" id="177B76C7-7875-7FE7-1ED1-E150AF5F529A">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>1D98B3BD-CCC2-6528-05A5-830BB90EDF35</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,4</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="311B4C02-D892-2BAD-F9CA-483A43901995" referredColumn="3BC1BD10-719C-3CA6-76A8-58D0D34D56D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA5BEEC0-8C62-B8E1-041C-3B452735E7CA" name="Marine_PK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>DFDABDCE-B85D-1517-AE42-B051EFA0B5DA</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F29BE1D-E376-789A-A813-122C57745DF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3950F11-A246-2529-A903-12A40B85625A" name="Marine_Mjesta_FK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>4E70E9E5-228F-D548-A951-E9C3E3EC12E1</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="177B76C7-7875-7FE7-1ED1-E150AF5F529A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

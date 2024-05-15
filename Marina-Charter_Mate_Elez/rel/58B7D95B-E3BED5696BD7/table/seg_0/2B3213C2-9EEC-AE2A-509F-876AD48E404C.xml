@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B3213C2-9EEC-AE2A-509F-876AD48E404C" name="Poslovi">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>37F66755-456C-6477-5D71-03BAAE51509C</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Posao" id="D35DC2E8-B93D-1452-4C8A-C12171A7AEE7">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>96475C3B-BBE6-D42F-E912-3DA226DE284F</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POSAO_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>POSAO_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="F03FA8F9-7607-73CC-C06B-127BE750D5C3">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>677CDB3A-D782-75BB-8AD9-39DD01039E36</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9AABE63-3F88-D9EE-970C-CFDBCDCABC2C" name="Poslovi_PK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>F63F0803-E5B7-A4FA-2553-384674C427B0</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D35DC2E8-B93D-1452-4C8A-C12171A7AEE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

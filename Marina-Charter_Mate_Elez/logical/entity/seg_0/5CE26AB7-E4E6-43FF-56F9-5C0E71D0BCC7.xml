@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5CE26AB7-E4E6-43FF-56F9-5C0E71D0BCC7" name="Drzava">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 14:56:34 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Drzave</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Drzava" id="B8D812D5-498C-3507-4BBE-D223C7A2DC23">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 14:56:48 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="1A8A43E9-DC92-6C53-0F51-7E0D59FD230E">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 14:57:08 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69F5A08F-2F27-7C73-FC8E-ACD3F39B6C31" name="Drzava PK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 14:57:07 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B8D812D5-498C-3507-4BBE-D223C7A2DC23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

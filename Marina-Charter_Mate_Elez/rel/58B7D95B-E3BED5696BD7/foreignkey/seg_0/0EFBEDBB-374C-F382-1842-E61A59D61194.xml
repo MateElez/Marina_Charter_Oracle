@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0EFBEDBB-374C-F382-1842-E61A59D61194" containerWithKeyObject="23837ADE-B9B9-4F6E-609C-C6A38F928543" localFKIndex="368CBA9F-C212-FE60-B5F1-2D56C4AB082C" name="Modeli_Marke_FK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>DC91858E-3DBF-6A30-49D3-4303AACDBBB2</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3840BC27-C844-EA6C-6EA4-02CF7F608229</referredTableID>
+<keyObject>1546492E-7240-45C6-020D-A5F4FE7845CA</keyObject>
+<referredKeyID>1546492E-7240-45C6-020D-A5F4FE7845CA</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

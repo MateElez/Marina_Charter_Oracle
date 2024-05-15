@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32E36084-9298-5349-0069-9BFC747F6408" name="Vezovi">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>E590189A-7259-7C04-AFC5-8B4D5A5F4553</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Vez" id="2017558C-CA41-90CA-CEF0-4FADC87C8E36">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>B85E8505-065E-B336-47F1-5AB4DE810CC1</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>VEZ_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>BEZ_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Redni_Broj" id="7A83AD19-FCDF-8C88-C6E0-D7A56F2A02A4">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>22A5E49D-682A-B581-EACC-BE8A584B708F</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marine_ID_Marina" id="686D0375-CF3E-F0AD-66BD-BE0962C302E9">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>91E0D9F2-64FD-F30B-57AD-CAF4FE6DE38E</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,,3</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F18D307B-2462-F808-DFD5-2B21D73C5FA2" referredColumn="1F29BE1D-E376-789A-A813-122C57745DF2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="205661B8-7351-3186-6D71-6811D1BFB788" name="Vezovi_PK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>3EEE1777-CC0F-4D46-DA15-F95F18594DB6</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2017558C-CA41-90CA-CEF0-4FADC87C8E36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32012AB0-79BE-964F-9F5E-17C865B40F7E" name="Vezovi_Marine_FK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>250BB244-0F59-20B0-135A-3D27F0C4A126</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="686D0375-CF3E-F0AD-66BD-BE0962C302E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

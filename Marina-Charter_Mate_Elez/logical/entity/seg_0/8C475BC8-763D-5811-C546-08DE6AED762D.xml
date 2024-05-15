@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C475BC8-763D-5811-C546-08DE6AED762D" name="Charter_Vez">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:00:59 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Charter_Vez</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Datum_Od" id="EDBD8D9F-3679-619C-E095-40C8A7A150C8">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:01:14 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_Do" id="1637DF46-86AE-EB11-BDF5-29054DA43FAA">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:01:23 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Vez" id="C0422BE1-1E9F-BEB0-EAE6-F3D94E601A9D">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:21:46 UTC</createdTime>
+<generatorID>B87F7749-BE77-E78F-18BA-A149CF5E39D5</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<referedAttribute>B85E8505-065E-B336-47F1-5AB4DE810CC1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Charter" id="9D74C969-DFA3-3B61-5458-774B280F5104">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:21:52 UTC</createdTime>
+<generatorID>CB37900A-C47A-5331-135E-8C77F335E1A9</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<referedAttribute>5C12D942-9C70-4C09-5BD2-5B8F0739177C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B8E145D-D412-2F72-FB00-AC7D5D88CDF9" name="Charter_Vez PK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-04-11 19:52:53 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0422BE1-1E9F-BEB0-EAE6-F3D94E601A9D</attributeRef>
+<attributeRef>9D74C969-DFA3-3B61-5458-774B280F5104</attributeRef>
+<attributeRef>C0422BE1-1E9F-BEB0-EAE6-F3D94E601A9D</attributeRef>
+<attributeRef>9D74C969-DFA3-3B61-5458-774B280F5104</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9470DD23-F69A-B9AE-6020-1049D9AA669A" name="Brod">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:01:49 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Brodovi</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Brod" id="95CF2B8F-E4AA-058F-B1E4-90745C8F8110">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:01:59 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="8425318C-222E-D8B7-3D48-7D3FBECA1275">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:02:13 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Registracija" id="4CFF48F0-94F3-7F88-6553-768D6B0FD17E">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:02:26 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Godina_Proizvodnje" id="1D5F6F52-C857-273C-448D-D5C9E836F953">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:02:55 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Model" id="A80C5BBB-0657-8936-FF98-E88543E42865">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:23:09 UTC</createdTime>
+<generatorID>3B43569D-FF21-9912-053F-5955035DC23C</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<referedAttribute>2DA34DF1-1D64-0BDC-6C9E-7F5C2CD1BDA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Charter" id="C3988E9D-103A-7177-A4A9-201B156F1776">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:23:35 UTC</createdTime>
+<generatorID>7A9044F4-DF42-A746-036A-134D6826A268</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="true"/>
+</engineerTo>
+<referedAttribute>5C12D942-9C70-4C09-5BD2-5B8F0739177C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="126AEFF7-BC3B-705B-5FF4-7AA78DC58BE5" name="Brod PK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:02:11 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95CF2B8F-E4AA-058F-B1E4-90745C8F8110</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="DAF885CD-82FF-3DB5-864B-323224F42D9E" name="UID_Registracija">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:17:58 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="58B7D95B-3137-E639-122D-E3BED5696BD7" value="false"/>
+</engineerTo>
+<newElementsIDs>4CFF48F0-94F3-7F88-6553-768D6B0FD17E</newElementsIDs>
+<usedAttributes>
+<attributeRef>4CFF48F0-94F3-7F88-6553-768D6B0FD17E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

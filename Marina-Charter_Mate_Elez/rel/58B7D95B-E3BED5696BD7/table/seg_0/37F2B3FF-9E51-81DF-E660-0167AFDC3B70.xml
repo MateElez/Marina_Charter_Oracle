@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37F2B3FF-9E51-81DF-E660-0167AFDC3B70" name="Osoblje">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>E8EBB047-05DA-FE59-90F2-4577C72FF689</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Osoblje" id="CB8D42F2-E6C3-96D1-053D-DF23AAFC85C2">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>4AE42ED3-E094-474E-A209-6C4D51CF9796</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>OSOBLJE_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>OSOBLJE_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Ime" id="58F1365B-DB5B-44D6-C203-1F77F465F130">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>0381DEDE-21E6-3C94-F075-BB33735DF38B</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="32877D96-2754-76F4-7153-92CF564C40A8">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>32D9A3BC-8D6E-1FFA-CB28-8661B6FCFEF1</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Placa" id="5E16F7C7-ABF7-2596-3484-C89C3FC68368">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>3A6DF560-D1B1-07E0-C07E-CC268355560A</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Oib" id="08135A00-9F9F-C310-5F0A-750E237AEF69">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>6C20BE73-2105-C4AF-6C85-5CF7CD92F6D8</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poslovi_ID_Posao" id="52DABE4C-679D-481D-E547-C42BDA7C687B">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>A33877C8-1139-C60B-DECA-72292BA4F4A8</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C21095D-3148-3687-2368-E0D74834CF81" referredColumn="D35DC2E8-B93D-1452-4C8A-C12171A7AEE7"/>
+</associations>
+</Column>
+<Column name="Charteri_ID_Charter" id="A3855978-BBA7-D0F3-3D8C-B2B602444CB7">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>12C7BADF-92F1-0855-265C-2689DCCF9720</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42FA4512-D9B7-6F79-D0E3-092FE5487AFF" referredColumn="E0BE96CE-ED28-ABE3-4B51-2B1944D0421A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5393CEBB-52BA-5B4A-4609-EABCF7B865D8" name="Osoblje_PK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>CF0BB1F3-90E8-8CB3-E1E6-E97890705479</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB8D42F2-E6C3-96D1-053D-DF23AAFC85C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E9CEB52-EBBD-57EC-74FB-EEE6A7B2FBCD" name="Osoblje_Oib_UN">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>7373CEE2-6262-83CF-ADD9-F84DF69EF56D</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08135A00-9F9F-C310-5F0A-750E237AEF69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7EC0B82-EFC6-1889-DC4B-EADFA500C632" name="Osoblje_Poslovi_FK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>9D6AB8B6-B91B-B797-0862-8963A9F3A185</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52DABE4C-679D-481D-E547-C42BDA7C687B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B4B8AB2-0BBE-B13D-266D-79A6C4E0E45F" name="Osoblje_Charteri_FK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>2E105564-7B95-9FC9-C9F3-0A8F03380839</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3855978-BBA7-D0F3-3D8C-B2B602444CB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

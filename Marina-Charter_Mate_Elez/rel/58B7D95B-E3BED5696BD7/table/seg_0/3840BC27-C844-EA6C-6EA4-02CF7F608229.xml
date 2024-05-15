@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3840BC27-C844-EA6C-6EA4-02CF7F608229" name="Marke">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>8F6BC011-B29F-366C-C549-34569D962416</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Marka" id="D0EA10DD-214D-0DD2-5088-CA9601C45237">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>B1A50730-86FF-90EA-114D-A447D55BB731</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>MARKA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>MARKA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="3757953D-6AE5-23E3-74E3-FC55D2AA701E">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>A4966C3D-DB05-EDA9-D3FA-1F84EAB45547</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1546492E-7240-45C6-020D-A5F4FE7845CA" name="Marke_PK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>D63417D8-EAE1-875A-89FE-807E0C5319BA</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0EA10DD-214D-0DD2-5088-CA9601C45237"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

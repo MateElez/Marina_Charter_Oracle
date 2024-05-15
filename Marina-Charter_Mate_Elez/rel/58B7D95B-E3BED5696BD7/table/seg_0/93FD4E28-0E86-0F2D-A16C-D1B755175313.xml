@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93FD4E28-0E86-0F2D-A16C-D1B755175313" name="Rezervacije">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>F8B7E440-F2E0-32DB-9615-D129ADB5F122</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Rezervacija" id="48454F33-0B2A-64E0-E863-BFDA510CBCED">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>F36A5021-F7CE-990E-E8DF-633A26C04518</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>REZERVACIJA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>REZERVACIJA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Cijena" id="97A74D72-4E5B-A007-9DD4-D37439EC3ACE">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>D0865512-62EA-E9A2-5C43-D49A2AED3739</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Od" id="A954D9AF-F27A-4879-F0D4-4DA6CDC108DD">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>9EB347FD-F79A-813C-3113-A14DFD99E991</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Do" id="52BCD9AB-3818-0784-19F9-E0BC1FD66E70">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>8D49A0BB-8F6D-220F-1B3B-984F31C15065</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sifra" id="E6C3CD93-A039-268A-9DC1-DE9E36A851FE">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>707A59C5-756C-B1D4-3110-CB959FB8EA97</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klijenti_ID_Klijent" id="9BAA990E-3C49-1D3A-28F4-C94D5C763C6C">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>84E4A400-96B1-928B-A514-52285888DB8D</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,,5</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCD9256B-9107-8A01-1755-6092773CF9DD" referredColumn="F5993C27-0896-34F1-3CC8-9AFA33A7F1B6"/>
+</associations>
+</Column>
+<Column name="Usluge_ID_Usluga" id="72FF88A6-1266-ACB3-DA6E-52ECCB099FDC">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>1B1C8D4B-BA38-1827-CA6C-7BB3EDA1FC1A</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="708184C1-E4D6-61BC-1112-D54DA653BC7D" referredColumn="7378060F-4405-0E6B-8981-85FCAA3244C8"/>
+</associations>
+</Column>
+<Column name="Osoblje_ID_Osoblje" id="301B3D3E-E57F-FE9B-DDDB-F351487095F4">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>D59B7545-19C8-F3B7-9D25-FE0723D36902</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,,3</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7938C425-C20E-867D-2A70-8E22F42B9C45" referredColumn="CB8D42F2-E6C3-96D1-053D-DF23AAFC85C2"/>
+</associations>
+</Column>
+<Column name="Brodovi_ID_Brod" id="AAC59B97-4440-A198-1407-EF50CCB81C56">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>74107FA3-9566-21E8-7B57-647D22217C8B</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71574AB7-AC24-26DD-721A-5CF63641652B" referredColumn="CB22D019-47E0-A0C9-F0B4-21A438A18D7E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6607657-FB85-BB26-1000-A559D6DFBA13" name="Rezervacije_PK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>714C80C8-0115-A660-4CB6-DEC8667F52E5</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48454F33-0B2A-64E0-E863-BFDA510CBCED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DFBF1C6-D793-4084-7BD2-8FC707C5A1DA" name="Rezervacije_Sifra_UN">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>4AB7C5D9-887D-0D0A-A51D-A8BE93B3D394</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6C3CD93-A039-268A-9DC1-DE9E36A851FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="890D6939-BDF9-7AEF-F237-E95A6FC58552" name="Rezervacije_Usluge_FK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>4CFF01DF-DACB-F26E-8736-9C5E40B37857</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72FF88A6-1266-ACB3-DA6E-52ECCB099FDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="324C27A7-7FA2-12BB-B9F4-DFEA0A07D224" name="Rezervacije_Osoblje_FK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>F7F7EF91-4DB3-667E-A644-B5B058EB36D8</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="301B3D3E-E57F-FE9B-DDDB-F351487095F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD1B7EC9-EEA2-2065-A279-0ADEB97288F9" name="Rezervacije_Brodovi_FK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>1BC392AB-CC84-0FEE-E8F7-1284D6E8765B</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAC59B97-4440-A198-1407-EF50CCB81C56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AAC6D81-0C8A-CA67-EF0C-A04822139AFC" name="Rezervacije_Klijenti_FK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>5A700A58-10CF-25F6-185B-2FFD41B71B46</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BAA990E-3C49-1D3A-28F4-C94D5C763C6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

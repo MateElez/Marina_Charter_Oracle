@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFB480BF-B21C-8683-5BE8-8C39206BD811" name="Brodovi">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>9470DD23-F69A-B9AE-6020-1049D9AA669A</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Brod" id="CB22D019-47E0-A0C9-F0B4-21A438A18D7E">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>95CF2B8F-E4AA-058F-B1E4-90745C8F8110</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>BROD_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>BROD_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Ime" id="CD05F7D0-5C9A-A03E-ECAA-161C5F134A8C">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>8425318C-222E-D8B7-3D48-7D3FBECA1275</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registracija" id="FF40B346-02F3-6842-AF68-54173269E06C">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>4CFF48F0-94F3-7F88-6553-768D6B0FD17E</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Godina_Proizvodnje" id="ACD635EE-B8E0-170A-E8C6-2351318DDF0D">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>1D5F6F52-C857-273C-448D-D5C9E836F953</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modeli_ID_Model" id="D0A9ACDB-A77C-8E4C-B99F-1FBDDB9757F9">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>A80C5BBB-0657-8936-FF98-E88543E42865</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F65FE938-1BBD-A8C6-D7EE-47171C21AA17" referredColumn="54C3090E-B0CE-D8FC-EA59-9C2A2A866477"/>
+</associations>
+</Column>
+<Column name="Charteri_ID_Charter" id="0C3F0077-9EEF-5B34-2EE0-B150AC5093E9">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>C3988E9D-103A-7177-A4A9-201B156F1776</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3773F86-57F9-7F1C-6098-C0916577BF84" referredColumn="E0BE96CE-ED28-ABE3-4B51-2B1944D0421A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80FB6F09-626B-D211-33F6-CFE218DD7259" name="Brodovi_PK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>126AEFF7-BC3B-705B-5FF4-7AA78DC58BE5</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB22D019-47E0-A0C9-F0B4-21A438A18D7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62D4448D-0C29-FED8-84F7-31C1DBE61EB1" name="Brodovi_Registracija_UN">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>DAF885CD-82FF-3DB5-864B-323224F42D9E</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF40B346-02F3-6842-AF68-54173269E06C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0306F5D-DDD2-4C5E-4965-D6EB12CE9009" name="Brodovi_Modeli_FK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>3B43569D-FF21-9912-053F-5955035DC23C</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0A9ACDB-A77C-8E4C-B99F-1FBDDB9757F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77EF0FF3-563F-2634-DAAB-F0FA50EE8409" name="Brodovi_Charteri_FK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>7A9044F4-DF42-A746-036A-134D6826A268</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C3F0077-9EEF-5B34-2EE0-B150AC5093E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

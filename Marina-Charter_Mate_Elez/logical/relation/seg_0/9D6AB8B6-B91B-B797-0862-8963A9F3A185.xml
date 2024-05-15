@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="9D6AB8B6-B91B-B797-0862-8963A9F3A185">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:22:40 UTC</createdTime>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<engineerTo>
+<item key="B95A4C06-0B5E-3E99-17F2-0962D0114669" value="true"/>
+</engineerTo>
+<sourcePk>F63F0803-E5B7-A4FA-2553-384674C427B0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>37F66755-456C-6477-5D71-03BAAE51509C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E8EBB047-05DA-FE59-90F2-4577C72FF689</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

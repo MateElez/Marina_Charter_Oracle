@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FC28E76-D658-5719-505B-9628D1E7D20F" name="Brod_Vez">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>FE4EDD44-7971-F17D-0A84-9A45B58CFA9A</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Datum_Od" id="7F795BC0-9069-D666-B671-5EDF004CC462">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>9C9CDD4F-174C-1248-B6AE-E9D1BD0A6FA2</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Do" id="945423C5-53D5-1D38-455E-EF7CB8CD9275">
+<createdBy>Mate</createdBy>
+<createdTime>2023-03-14 15:29:58 UTC</createdTime>
+<generatorID>6B5424FF-67B3-2C56-59EA-A433F35AC7FA</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Brodovi_ID_Brod" id="50FB9F44-ACD7-0BBE-7AB1-C75148853BC7">
+<createdBy>Mate</createdBy>
+<createdTime>2023-04-11 19:55:51 UTC</createdTime>
+<generatorID>302EA8B3-CD85-D7B4-AB18-4BE9659C47B8</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA2F63AD-3E3D-8667-E28A-0291C0EB1486" referredColumn="CB22D019-47E0-A0C9-F0B4-21A438A18D7E"/>
+</associations>
+</Column>
+<Column name="Vezovi_ID_Vez" id="AAB1810D-5424-1DBD-B9BC-4FC9D052A2ED">
+<createdBy>Mate</createdBy>
+<createdTime>2023-04-11 19:55:51 UTC</createdTime>
+<generatorID>216BD1C0-391F-449E-19F4-824853D132DD</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEF26DB6-85D3-100C-802B-6AFF4C66F346" referredColumn="2017558C-CA41-90CA-CEF0-4FADC87C8E36"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D155457B-D07E-1DB0-F274-EDE4753632AB" name="Brod_Vez_PK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-04-11 19:53:08 UTC</createdTime>
+<generatorID>1EF2945D-E1AE-D713-9731-3EEEA17B3A9E</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50FB9F44-ACD7-0BBE-7AB1-C75148853BC7"/>
+<colUsage columnID="AAB1810D-5424-1DBD-B9BC-4FC9D052A2ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB64EDBF-88DC-A80C-CF1A-4BDAA4D773D1" name="Brod_Vez_Brodovi_FK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-04-11 19:55:51 UTC</createdTime>
+<generatorID>09E2B692-44B7-9CE3-175D-24E0D257576F</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50FB9F44-ACD7-0BBE-7AB1-C75148853BC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FD26C35-475C-2B57-0BBC-7DD262E425DC" name="Brod_Vez_Vezovi_FK">
+<createdBy>Mate</createdBy>
+<createdTime>2023-04-11 19:55:51 UTC</createdTime>
+<generatorID>C9A158CF-6674-BDE4-F474-EB760CA8374C</generatorID>
+<ownerDesignName>Marina-Charter_Mate_Elez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAB1810D-5424-1DBD-B9BC-4FC9D052A2ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
